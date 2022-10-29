@@ -97,6 +97,7 @@
 .Sidebar ul li{
   color: #fff;
   cursor: pointer;
+  font-size: 20px;
   margin-left: -32px;
   margin-bottom: 10px;
   padding: 15px 60px;
@@ -111,6 +112,21 @@
   padding: 15px 60px;
   background-color: rgba(220, 20, 60, 0.419);
   border-radius: 8px;
+}
+
+.input_sam  {
+  /* background-color: #0070f3; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.input_sam:focus-visible  {
+  /* background-color: #0070f3; */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border: none;
 }
 
 
@@ -140,7 +156,10 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+background-color: rgba(245, 245, 245, 0.462);
   max-width: 300px;
+  cursor: pointer;
+  height: 200px;
 }
 
 .card:hover,
@@ -184,7 +203,4 @@
   .logo img {
     filter: invert(1);
   }
-}
-.card{
-  background-color: #0070f3;
 }
