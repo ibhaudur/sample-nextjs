@@ -32,7 +32,7 @@ function sampleapi({article}) {
 export default sampleapi
 
 export const getStaticProps = async () => {
-                    const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=6')
+                    const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=30')
 
                     const article = await response.json()
                     return {

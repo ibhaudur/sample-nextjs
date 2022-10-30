@@ -2,13 +2,14 @@ import React from 'react'
 import {useRouter} from 'next/router'
 import { Button} from 'react-bootstrap';
 import Link from 'next/link';
+import Meta from '../../../Component/meta';
 
 function Sample({articlebyid}) {
                     const router = useRouter()
                     const {id} = router.query;
   return (
     <div className='justify-content-center'>
-      
+      <Meta title={`Api ${articlebyid.id}`}/>
                    <h1>{articlebyid.title}</h1> 
                    <h4>{articlebyid.body}</h4>
                    <Link href="/sampleapi">

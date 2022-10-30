@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -59,6 +59,7 @@
   height: 70px;
   width: 100%;
   padding: 20px;
+  margin-top: -3rem;
   background-color: rgba(220, 20, 60, 0.845);
   color: white;
   font-weight: 600;
@@ -83,7 +84,7 @@
 .Sidebar {
   height: 100vh;
   width: 240px;
-  margin-top: 70px;
+  margin-top: 20px;
   padding: 10px;
   background-color: rgba(220, 20, 60, 0.436);
   color: white;
@@ -113,7 +114,10 @@
   background-color: rgba(220, 20, 60, 0.419);
   border-radius: 8px;
 }
-
+.child{
+  margin: 50px 0px 0px 240px;
+  padding: 30px;
+}
 .input_sam  {
   /* background-color: #0070f3; */
   border-top: none;
@@ -128,6 +132,7 @@
   border-right: none;
   border: none;
 }
+
 
 
 .code {
@@ -184,7 +189,21 @@ background-color: rgba(245, 245, 245, 0.462);
   height: 1em;
   margin-left: 0.5rem;
 }
-
+@media (min-width: 800px) {
+  .nav ul{
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .side{
+  display: none;
+  background-color: red;
+  }
+  .child{
+    margin: 50px 0px 0px 0px;
+    padding: 30px;
+  }
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
