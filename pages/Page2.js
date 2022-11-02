@@ -47,7 +47,7 @@ function Page2() {
       </Form.Group>
       
     </Form>
-    <Button onClick={Call}>Call</Button>
+    <Button onClick={Call}>Add</Button>
         </Col>
       </Row>
       

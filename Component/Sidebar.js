@@ -14,15 +14,10 @@ function Sidebar() {
             
                                                     </li>
                                                     </Link>
-                                                    <Link href='/Page1'>
-                                                    <li>
-                                                    <span>About</span>
-            
-                                                    </li>
-                                                    </Link>
+                                                   
                                                     <Link href='/Page2'>
                                                     <li>
-                                                    <span>Page</span>
+                                                    <span>Post</span>
             
                                                     </li>
                                                     </Link>

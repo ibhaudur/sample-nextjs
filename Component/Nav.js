@@ -12,12 +12,9 @@ function Nav() {
                                         <Link href='/'><span>Home</span></Link>
 
                                         </li>
+                                        
                                         <li>
-                                        <Link href='/Page1'><span>About</span></Link>
-
-                                        </li>
-                                        <li>
-                                        <Link href='/Page2'><span>Page</span></Link>
+                                        <Link href='/Page2'><span>Post</span></Link>
 
                                         </li>
                                       
