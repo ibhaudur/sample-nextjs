@@ -7,7 +7,7 @@ import Link from "next/link";
 function Sampleapi({ article }) {
   return (
     <div>
-      <Meta title="Api" />
+      <Meta title="Home" />
       <Row>
         {article.map((a, i) => {
           return (

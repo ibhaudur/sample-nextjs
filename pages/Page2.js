@@ -32,7 +32,7 @@ function Page2() {
   return (
     <div className={styles.container}>
       
-<Meta title='Page 2'/>
+<Meta title='Post'/>
 <h1>Post </h1>
       <Row className='justify-content-center mt-5'>
         <Col md={6}>

@@ -3,14 +3,15 @@ import {useRouter} from 'next/router'
 import { Button} from 'react-bootstrap';
 import Link from 'next/link';
 import Meta from '../../../Component/meta';
+import style from '../../../styles/Home.module.css'
 
 function Sample({Sample}) {
                     const router = useRouter()
                     const {id} = router.query;
                     console.log(Sample);
   return (
-    <div className='justify-content-center'>
-      <Meta title={`Api ${Sample.id}`}/>
+    <div className={style.container}>
+      <Meta title={`ApiList ${Sample.id}`}/>
       <h1>{Sample.id}</h1>
                    <h2>{Sample.title}</h2> 
                    <h4>{Sample.body}</h4>

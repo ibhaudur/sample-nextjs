@@ -5,7 +5,7 @@ import Sampleapi from "../Component/Sampleapi";
 export default function Home({ article }) {
   return (
     <div className={styles.container}>
-      <Meta title="Kirshi" />
+      <Meta title='Kirshi' />
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Kirshi!</a>
