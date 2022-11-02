@@ -1,6 +1,5 @@
 import React from "react";
 import Meta from "../Component/meta";
-import style from "../styles/Home.module.css";
 
 export default function Page1() {
   return (

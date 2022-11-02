@@ -6,24 +6,21 @@ function Nav() {
   return (
     <div className={styles.nav}>
       
-      <h2>Kirshi</h2>
+      <h2>Kirshi Technologies</h2>
                     <ul>
                                         <li>
                                         <Link href='/'><span>Home</span></Link>
 
                                         </li>
                                         <li>
-                                        <Link href='/Page1'><span>Page1</span></Link>
+                                        <Link href='/Page1'><span>About</span></Link>
 
                                         </li>
                                         <li>
-                                        <Link href='/Page2'><span>Page2</span></Link>
+                                        <Link href='/Page2'><span>Page</span></Link>
 
                                         </li>
-                                        <li>
-                                        <Link href='/sampleapi'><span>Api</span></Link>
-
-                                        </li>
+                                      
                     </ul>
                     
     </div>

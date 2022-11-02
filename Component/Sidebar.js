@@ -26,12 +26,7 @@ function Sidebar() {
             
                                                     </li>
                                                     </Link>
-                                                    <Link href='/sampleapi'>
-                                                    <li>
-                                                   <span>API</span>
-            
-                                                    </li>
-                                                    </Link>
+                                                   
                     </ul>
                   </div>
                   </div>
